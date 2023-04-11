@@ -9,10 +9,11 @@ and 5 using a for loop.
         for (int i=1; i<=15; i++){
             if(i%3 == 0 || i%5 == 0) {
                 sum += i;
+                System.out.printf(" %d +", i); 
             }
-            System.out.println(i); 
+            //System.out.println(i); 
         }
-        System.out.println(sum);        
+        System.out.printf(" = %d", sum);        
     }
 
 }
